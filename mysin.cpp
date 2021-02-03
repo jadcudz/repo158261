@@ -5,13 +5,24 @@ using namespace std;
 
 /**
 * \defgroup test1 GRUPA1 (Jakaś nazwa grupy)
-* \(
 */
 
+
+/** 
+   *  Moja dokumentacja
+   *    - klasa MySin
+   *        - deklaracja zmiennych
+   *    - funkcja fac 
+   *		- funkcja licząca 
+   *
+   *  Więcej tekstu tutaj.
+*/
 
 /**
 * \brief Klasa MySin z deklarowanymi zmiennymi
 */
+
+
 
 class MySin {
     public: MySin();
@@ -35,6 +46,12 @@ class MySin {
 *    - fac => zwracana silnię wybranej liczny
 */
 
+ /**
+ * IMAGE_PATH = ./
+ *  \image html sin.png
+ */
+
+
 int fac(int x)
 {
 int i,fac=1;
@@ -47,11 +64,15 @@ return fac;
 /**
 * \brief funkcja value z jednym argumentem liczby zmiennoprzecinkowej
 *
-* \param[in] x - 
+* \param[in] x
 *   parametr pierwszy x jako liczba zmiennoprzecinkowa z której policzymy wartość przybliżoną sinus na podstawie szeregu Taylora
 *
 * \return
-*    - sum => zwraca przybliżoną wartość sinus
+*    sum => zwraca przybliżoną wartość sinus
+*/
+
+/** Jakiś komentarz. 
+   dhfa dhsajf adjfdajfadsfj
 */
 
 double value(float x) {
