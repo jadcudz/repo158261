@@ -3,6 +3,15 @@
 #include <math.h>
 using namespace std;
 
+/**
+* \defgroup test1 GRUPA1 (Jakaś nazwa grupy)
+* \(
+*/
+
+
+/**
+* \brief Klasa MySin z deklarowanymi zmiennymi
+*/
 
 class MySin {
     public: MySin();
@@ -16,6 +25,15 @@ class MySin {
 };
 
 
+/**
+* \brief funkcja fac z jednym argumentem - funkcja liczy silnię liczby
+*
+* \param[in] x - 
+*   parametr pierwszy x jako liczba naturalna z której liczymy silnię
+*
+* \return
+*    - fac => zwracana silnię wybranej liczny
+*/
 
 int fac(int x)
 {
@@ -26,6 +44,15 @@ return fac;
 };
 
 
+/**
+* \brief funkcja value z jednym argumentem liczby zmiennoprzecinkowej
+*
+* \param[in] x - 
+*   parametr pierwszy x jako liczba zmiennoprzecinkowa z której policzymy wartość przybliżoną sinus na podstawie szeregu Taylora
+*
+* \return
+*    - sum => zwraca przybliżoną wartość sinus
+*/
 
 double value(float x) {
     
@@ -48,6 +75,9 @@ return sum;
 };
 
 
+/**
+* \brief funkcja main jako funkcja główna działania programu
+*/
 
 int main () {
   cout << value(90.0);
